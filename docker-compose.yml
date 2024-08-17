@@ -4,3 +4,5 @@
     build:
       context: .
       dockerfile: UbuntuTestDeploy/Dockerfile
+    ports:
+      - "5000:8080"
